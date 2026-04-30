@@ -17,6 +17,7 @@ namespace Screens
             HideAll();
             ShowByType(startScreen);
         }
+      
         public void ShowByType(ScreenType type)
         {
             if(_currentScreen != null) _currentScreen.Hide();
